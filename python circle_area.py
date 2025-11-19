@@ -1,10 +1,13 @@
 import math
 
-# Ask user for radius
-radius = float(input("Enter the radius of the circle: "))
+# Ask the user for the radius
+radius = input("Enter the radius of the circle: ")
 
-# Calculate area
-area = math.pi * (radius ** 2)
+# Convert input to float
+radius = float(radius)
 
-# Print result
-print("The area of the circle is: " + str(area))
+# Calculate the area
+area = math.pi * radius ** 2
+
+# Print the result
+print("The area of the circle is " + str(area))
